@@ -15,9 +15,9 @@ int main()
 	cin >> A;
 	cout << "Please enter a value for B: ";
 	cin >> B;
-	X = (0 - B);
-	X = X / A;
+	X = (0 - B); // Subtract B from 0 to isolate Ax
+	X = X / A; // Divide by A to solve for x
 	cout << "Solving " << A << "x + " << B << " = 0" << endl;
 	cout << "The answer is: " << endl;
-	cout << "x = " << X << endl;
+	cout << "x = " << X << endl; // Print out the answer
 }
