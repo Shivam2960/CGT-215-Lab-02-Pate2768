@@ -12,9 +12,9 @@ int main()
 	float B;
 	float X;
 	cout << "Please enter a value for A: ";
-	cin >> A;
+	cin >> A; // Store the value the user inputted as the float A
 	cout << "Please enter a value for B: ";
-	cin >> B;
+	cin >> B; // Store the value the user inputted as the float B
 	X = (0 - B); // Subtract B from 0 to isolate Ax
 	X = X / A; // Divide by A to solve for x
 	cout << "Solving " << A << "x + " << B << " = 0" << endl;
